@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            table, th, td {
+              border: 1px solid black;
+            }
+
+            .text{ text-align:right;}
+
+            .ul1 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:none;
+  }
+  
+  .li1 {
+    float: left;
+  }
+  
+  .li1 a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+  
+  .li1 a:hover {
+    background-color: purple;
+  }
+            </style>
+
+
+    </head>
+
+    <body style='background-color: lightblue;'>
+        <header style='background-color:white;width: 100px;'>
+            
+           
+        </header>
+        <main>
+            
+<p> <img src='UBT-LOGO.png' width="100px"alt="Home about contact us" align="left"/> 
+    <ul class="ul1">
+    <li class="li1"><a href="#home">Home</a></li>
+    <li class="li1"><a href="#about">About</a></li>
+    <li class="li1"><a href="#contact">Contact</a></li>
+    <li class="li1"><a href="#us">Us</a></li>
+  </ul>
+  </p>
+  
+
+            <ol>
+                <li>Lajme</li>
+                <li>Teknologji</li>
+                <li>Sport</li>
+                <li>Shendetsi</li>
+                <li>Pune</li>
+                <li>Informacion</li>
+                <li>Extra</li>
+
+
+
+               </ol>
+               
+               <p><b>Regjistrohu ne faqen tone</b></p>
+               <style>
+                {
+                    border: 1px solid black;
+                    border-collapse: collapse;
+                }
+                </style>
+                <fieldset>
+                    <legend>Regjistrimi</legend>
+        
+
+               <form action="" name="" id="" method=""></form>
+               <label forc="name">Emri:</label>
+               <input type="text" id="name" />
+               <p style="display: inline;">pranon tekst qfaredo lloji</p>
+            </br>
+            <label forc="lastname">Mbiemri:</label>
+               <input type="text" id="lastname" />
+               <p style="display: inline;">pranon tekst qfaredo lloji</p>
+            </br>
+            <label forc="email">Email:</label>
+               <input type="text" id="email" />
+               <p style="display: inline;">pranon vetem email</p>
+            </br>
+            <label forc="">Mosha:</label>
+               <input type="number" id="number" />
+               <p style="display: inline;">pranon vetem numer</p>
+               
+            </br>
+            <label forc="">Datelindja</label>
+            <input type="date" id="number" />
+        <p style="display: inline;">pranon vetem numer</p>
+        </br>
+
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+        </br>
+        <label for=""></label>
+        <select id="city" name="">
+            <option value="Prishtine">Prishtine</option>
+            <option value="Peje">Peje</option>
+            <option value="Prizren">Prizren</option>
+            <option value="Mitrovic">Mitrovic</option>
+          </select>
+          </fieldset>
+          <fieldset>
+             
+<legend>Orari</legend>
+          <p>orari</p>
+          <table style="width:100%">
+            <tr>
+                <th></th>
+                <th>9:00-10:30</th> 
+                <th>10:40-12:10</th>
+                <th>12:20-13:50</th>
+                <th>14:00-15:30</th>
+                <th>15:40-17:10</th>
+              </tr>
+              <tr>
+                  
+                <td align="center"><b>E Hene</b></td>
+                <td align="center" colspan="2">Inxhinieri e uebit</td>
+                <td></td>
+                <td align="center" colspan="2">Labcourse 1</td>
+              </tr>
+              <tr>
+                  <td align="center"><b>E Marte</b></td>
+                  
+                  <td align="center" rowspan="2"colspan="5">Pushim</td>
+                
+                  
+              </tr>
+              <tr>
+                <td align="center"><b>E Merkure</b></td>
+                
+                
+            </tr>
+            <tr>
+                <td align="center"><b>E Enjte</b></td>
+                <td align="center">Struktura diskrete 2</td>
+                <td align="center">Sisteme operative</td>
+                <td align="center">Algoritme</td>
+                <td align="center"colspan="2">Boll per sot</td>
+            </tr>
+            
+
+        </table>
+        <fieldset>
+<legend style="color:black;">Lendet</legend>
+        
+        <ul>
+            <li>Inxhinieri e uebit</li>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <ul style="list-style-type:square;">
+                    <li>Inline</li>
+                    <li>Internal</li>
+                    <li>External</li>
+                </ul>
+                </ul>
+                     <ul type="circle">
+                        <li>JS</li>
+                        <li>PHP</li>
+        
+                  <ol type="i">
+            <li >OOP</li>
+            <li>Procedural</li>
+             </ol>
+             </ul>
+               
+
+    </fieldset>
+    </fieldset>
+    <p style="text-align: center;">2020-UBT SHKI <a href="https://github.com/E325">References </a> </p>
+    
+        </main>
+
+
+    </body>
+
+
+
+
+
+</html>
